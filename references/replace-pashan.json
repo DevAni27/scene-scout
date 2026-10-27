@@ -1,0 +1,79 @@
+{
+  "candidate": {
+    "id": "varasgaon",
+    "name": "Varasgaon / dam area",
+    "coordinates": [
+      73.6125,
+      18.38694
+    ],
+    "coordinate_source_id": "varasgaon-coordinates",
+    "coordinate_precision": "area",
+    "creative_fit": "A candidate for a greener waterside background, based on the tourism description. Inspect the actual camera position.",
+    "tradeoffs": "Near Panshet, so this may add less geographical variety. Seclusion and filming permission remain unverified.",
+    "facts": [
+      {
+        "text": "Maharashtra Tourism describes Varasgaon with water and surrounding green hills.",
+        "source_ids": [
+          "mh-tourism"
+        ]
+      }
+    ],
+    "checks": [
+      "Confirm lawful access to the exact shooting position.",
+      "Check foot traffic, water conditions and ground stability.",
+      "Confirm equipment carry distance and available facilities."
+    ],
+    "practical": {
+      "access": {
+        "status": "unknown",
+        "text": "Verify the actual entry and equipment approach.",
+        "source_ids": []
+      },
+      "facilities": {
+        "status": "unknown",
+        "text": "Confirm toilets, parking and crew facilities.",
+        "source_ids": []
+      },
+      "permission": {
+        "status": "unknown",
+        "text": "Commercial filming permission is not established.",
+        "source_ids": []
+      }
+    },
+    "criteria": {
+      "water": {
+        "status": "meets",
+        "reason": "Published location description establishes a water setting.",
+        "source_ids": [
+          "mh-tourism"
+        ]
+      },
+      "green": {
+        "status": "meets",
+        "reason": "Check current vegetation and the intended camera background.",
+        "source_ids": [
+          "mh-tourism"
+        ]
+      },
+      "access": {
+        "status": "unknown",
+        "reason": "Tourism access does not verify crew or vehicle access.",
+        "source_ids": []
+      }
+    },
+    "camera": {
+      "range": 1000,
+      "tilt": 68,
+      "heading": 75
+    }
+  },
+  "sources": [
+    {
+      "id": "varasgaon-coordinates",
+      "title": "Varasgaon / coordinate reference",
+      "url": "https://en.wikipedia.org/wiki/Varasgaon_Dam",
+      "accessed": "2026-10-27",
+      "supports": "Published approximate coordinates for Varasgaon Dam; not a verified entrance."
+    }
+  ]
+}

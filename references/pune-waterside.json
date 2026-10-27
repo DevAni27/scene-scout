@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "title": "Pune / Waterside location studies",
+    "city": "Pune, Maharashtra",
+    "summary": "Compare three waterside settings within 60 km of central Pune for a small photography shoot. Prefer greenery; investigate road access and facilities before deciding.",
+    "origin": [
+      73.8567,
+      18.5204
+    ],
+    "radius_km": 60,
+    "criteria": [
+      {
+        "id": "water",
+        "label": "Water in the visual setting",
+        "priority": "must"
+      },
+      {
+        "id": "green",
+        "label": "Green surroundings",
+        "priority": "prefer"
+      },
+      {
+        "id": "access",
+        "label": "Practical crew access",
+        "priority": "prefer"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pune-district",
+      "title": "Pune District / Khadakwasala",
+      "url": "https://pune.gov.in/en/tourist-place/khadakwasala-dam/",
+      "accessed": "2026-10-27",
+      "supports": "Khadakwasla is on the Mutha River and supplies Pune; Panshet and Varasgaon are nearby dams."
+    },
+    {
+      "id": "mh-tourism",
+      "title": "Maharashtra Tourism / Panshet",
+      "url": "https://maharashtratourism.gov.in/nature/panshet-dam/",
+      "accessed": "2026-10-27",
+      "supports": "Panshet tourism setting and general road approach; Varasgaon described with water and green hills. Tourism information does not establish filming permission."
+    },
+    {
+      "id": "khada-coordinates",
+      "title": "Maps of India / Khadakwasla location",
+      "url": "https://www.mapsofindia.com/maps/dams/khadakwasla-dam.html",
+      "accessed": "2026-10-27",
+      "supports": "Published approximate coordinates 18.442697 N, 73.763713 E. Area reference only, not an entrance. Compare against imagery and verify on site."
+    },
+    {
+      "id": "panshet-coordinates",
+      "title": "Panshet / coordinate reference",
+      "url": "https://en.wikipedia.org/wiki/Panshet_Dam",
+      "accessed": "2026-10-27",
+      "supports": "Published approximate dam coordinates; not an access point."
+    },
+    {
+      "id": "pashan-reference",
+      "title": "Pashan Lake / place reference",
+      "url": "https://en.wikipedia.org/wiki/Pashan_Lake",
+      "accessed": "2026-10-27",
+      "supports": "Pashan Lake is an artificial lake in Pune; approximate coordinates."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "khadakwasla",
+      "name": "Khadakwasla / dam area",
+      "coordinates": [
+        73.763713,
+        18.442697
+      ],
+      "coordinate_source_id": "khada-coordinates",
+      "coordinate_precision": "area",
+      "creative_fit": "A water-and-infrastructure setting to assess for a grounded, recognisable Pune backdrop. This is a creative interpretation.",
+      "tradeoffs": "A dam setting is not automatically secluded or open to a crew. Verify the exact accessible viewpoint.",
+      "facts": [
+        {
+          "text": "Khadakwasla is a dam on the Mutha River near Pune.",
+          "source_ids": [
+            "pune-district"
+          ]
+        }
+      ],
+      "checks": [
+        "Confirm lawful access to the exact shooting position.",
+        "Check foot traffic, water conditions and ground stability.",
+        "Confirm equipment carry distance and available facilities."
+      ],
+      "practical": {
+        "access": {
+          "status": "unknown",
+          "text": "Verify the actual entry and equipment approach.",
+          "source_ids": []
+        },
+        "facilities": {
+          "status": "unknown",
+          "text": "Confirm toilets, parking and crew facilities.",
+          "source_ids": []
+        },
+        "permission": {
+          "status": "unknown",
+          "text": "Commercial filming permission is not established.",
+          "source_ids": []
+        }
+      },
+      "criteria": {
+        "water": {
+          "status": "meets",
+          "reason": "Published location description establishes a water setting.",
+          "source_ids": [
+            "pune-district"
+          ]
+        },
+        "green": {
+          "status": "unknown",
+          "reason": "Check current vegetation and the intended camera background.",
+          "source_ids": []
+        },
+        "access": {
+          "status": "unknown",
+          "reason": "Tourism access does not verify crew or vehicle access.",
+          "source_ids": []
+        }
+      },
+      "camera": {
+        "range": 1000,
+        "tilt": 68,
+        "heading": 210
+      }
+    },
+    {
+      "id": "pashan",
+      "name": "Pashan Lake / area reference",
+      "coordinates": [
+        73.785717,
+        18.533752
+      ],
+      "coordinate_source_id": "pashan-reference",
+      "coordinate_precision": "area",
+      "creative_fit": "A city-based waterside candidate to investigate when a shorter scouting trip matters. Quietness is not established.",
+      "tradeoffs": "An urban lake may conflict with a secluded brief. Current vegetation, access and the shot background need checking.",
+      "facts": [
+        {
+          "text": "Pashan is an artificial lake in Pune.",
+          "source_ids": [
+            "pashan-reference"
+          ]
+        }
+      ],
+      "checks": [
+        "Confirm lawful access to the exact shooting position.",
+        "Check foot traffic, water conditions and ground stability.",
+        "Confirm equipment carry distance and available facilities."
+      ],
+      "practical": {
+        "access": {
+          "status": "unknown",
+          "text": "Verify the actual entry and equipment approach.",
+          "source_ids": []
+        },
+        "facilities": {
+          "status": "unknown",
+          "text": "Confirm toilets, parking and crew facilities.",
+          "source_ids": []
+        },
+        "permission": {
+          "status": "unknown",
+          "text": "Commercial filming permission is not established.",
+          "source_ids": []
+        }
+      },
+      "criteria": {
+        "water": {
+          "status": "meets",
+          "reason": "Published location description establishes a water setting.",
+          "source_ids": [
+            "pashan-reference"
+          ]
+        },
+        "green": {
+          "status": "unknown",
+          "reason": "Check current vegetation and the intended camera background.",
+          "source_ids": []
+        },
+        "access": {
+          "status": "unknown",
+          "reason": "Tourism access does not verify crew or vehicle access.",
+          "source_ids": []
+        }
+      },
+      "camera": {
+        "range": 1000,
+        "tilt": 68,
+        "heading": 100
+      }
+    },
+    {
+      "id": "panshet",
+      "name": "Panshet / dam area",
+      "coordinates": [
+        73.61111,
+        18.37972
+      ],
+      "coordinate_source_id": "panshet-coordinates",
+      "coordinate_precision": "area",
+      "creative_fit": "A wider reservoir setting to investigate for open water and a landscape-led scene; this is an interpretation.",
+      "tradeoffs": "A general road approach does not confirm the last stretch to a usable shooting position. Check water-edge access.",
+      "facts": [
+        {
+          "text": "Maharashtra Tourism describes Panshet as a nature destination with a road approach from Pune.",
+          "source_ids": [
+            "mh-tourism"
+          ]
+        }
+      ],
+      "checks": [
+        "Confirm lawful access to the exact shooting position.",
+        "Check foot traffic, water conditions and ground stability.",
+        "Confirm equipment carry distance and available facilities."
+      ],
+      "practical": {
+        "access": {
+          "status": "documented",
+          "text": "Tourism source describes a road approach; final crew access unverified.",
+          "source_ids": [
+            "mh-tourism"
+          ]
+        },
+        "facilities": {
+          "status": "unknown",
+          "text": "Confirm toilets, parking and crew facilities.",
+          "source_ids": []
+        },
+        "permission": {
+          "status": "unknown",
+          "text": "Commercial filming permission is not established.",
+          "source_ids": []
+        }
+      },
+      "criteria": {
+        "water": {
+          "status": "meets",
+          "reason": "Published location description establishes a water setting.",
+          "source_ids": [
+            "mh-tourism"
+          ]
+        },
+        "green": {
+          "status": "partial",
+          "reason": "Check current vegetation and the intended camera background.",
+          "source_ids": [
+            "mh-tourism"
+          ]
+        },
+        "access": {
+          "status": "unknown",
+          "reason": "Tourism access does not verify crew or vehicle access.",
+          "source_ids": []
+        }
+      },
+      "camera": {
+        "range": 1000,
+        "tilt": 68,
+        "heading": 260
+      }
+    }
+  ]
+}

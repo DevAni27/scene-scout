@@ -1,0 +1,27 @@
+{
+  "title": "Pune / Waterside location studies",
+  "city": "Pune, Maharashtra",
+  "summary": "Retain saved choices and investigate a greener replacement for the city-based lake candidate. Access and facilities still require verification.",
+  "origin": [
+    73.8567,
+    18.5204
+  ],
+  "radius_km": 60,
+  "criteria": [
+    {
+      "id": "water",
+      "label": "Water in the visual setting",
+      "priority": "must"
+    },
+    {
+      "id": "green",
+      "label": "Green surroundings",
+      "priority": "prefer"
+    },
+    {
+      "id": "access",
+      "label": "Practical crew access",
+      "priority": "prefer"
+    }
+  ]
+}
